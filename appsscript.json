@@ -1,0 +1,56 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "cGoa",
+        "version": "46",
+        "libraryId": "1v_l4xN3ICa0lAW315NQEzAHPSoNiFdWHsMEwj2qA5t9cgZ5VWci2Qxv2"
+      },
+      {
+        "userSymbol": "cUseful",
+        "version": "133",
+        "libraryId": "1EbLSESpiGkI3PYmJqWh3-rmLkYKAtCNPi1L2YCtMgo2Ut8xMThfJ41Ex"
+      },
+      {
+        "userSymbol": "cDriveJsonApi",
+        "version": "16",
+        "libraryId": "1P0ZbhWVxXcYU8kJxtpdzm_tNuoBa34NLAubBUgEqsW7-pvEg5NVppTyx"
+      },
+      {
+        "userSymbol": "cScriptApi",
+        "version": "2",
+        "libraryId": "1TvPB6nhP1WyXWpbZtsj4T5cqb_RXmzkLh01IqFeDCAhrDul-FlB_be7o"
+      },
+      {
+        "userSymbol": "cUrlResult",
+        "version": "20",
+        "libraryId": "1NtAiJulZM4DssyN0HcK2XXTnykN_Ir2ee2pXV-CT367nKbdbTvRX4pTM"
+      },
+      {
+        "userSymbol": "bmRottler",
+        "version": "11",
+        "libraryId": "1dajqLysdKo8IoqddtEaGhtUUlSbtSQ1Agi2K5cXSUm0DxXfLYouSO9yD"
+      }
+    ],
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Drive",
+        "version": "v3",
+        "serviceId": "drive"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "webapp": {
+    "executeAs": "USER_DEPLOYING",
+    "access": "DOMAIN"
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/script.projects",
+    "https://www.googleapis.com/auth/drive"
+  ]
+}
